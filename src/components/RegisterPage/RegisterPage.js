@@ -10,7 +10,7 @@ const RegisterPage = () => {
     const handleRegister = async (e) => {
         e.preventDefault(); // Prevenir el comportamiento por defecto del formulario
         try {
-            await axios.post('http://localhost:8080/creates', {
+            await axios.post('http://ec2-35-153-194-126.compute-1.amazonaws.com:8080/creates', {
                 username,
                 password
             }, {

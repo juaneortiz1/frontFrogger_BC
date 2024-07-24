@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/game';
+const API_URL = 'http://ec2-35-153-194-126.compute-1.amazonaws.com:8080/api/game';
 
 export const getGameState = async (sessionId) => {
     try {
